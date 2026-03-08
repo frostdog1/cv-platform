@@ -186,7 +186,7 @@ const HomePage: React.FC = () => {
           {[
             { value: '5+', label: 'Years Experience' },
             { value: '98+', label: 'Lighthouse Score' },
-            { value: '<$2', label: 'Monthly Infra Cost' },
+            { value: '<£2', label: 'Monthly Infra Cost' },
             { value: '100%', label: 'Infrastructure as Code' },
           ].map((stat, i) => (
             <div key={i} style={{ minWidth: 100 }}>
@@ -235,7 +235,7 @@ const HomePage: React.FC = () => {
         </div>
       </div>
 
-      {/* ── Scroll indicator ── */}
+      {/* ── Scroll indicator ──
       <div style={{
         position: 'absolute',
         bottom: 32,
@@ -262,7 +262,7 @@ const HomePage: React.FC = () => {
           background: 'linear-gradient(to bottom, var(--color-text-muted), transparent)',
           animation: 'scrollPulse 2s ease-in-out infinite',
         }} />
-      </div>
+      </div> */}
 
       {/* Hover styles + keyframes */}
       <style>{`

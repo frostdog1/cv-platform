@@ -131,22 +131,6 @@ export default function CVPagePreview() {
         body::after { content:''; position:fixed; inset:0; pointer-events:none; z-index:9999; opacity:.022; background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"); background-repeat:repeat; background-size:256px; }
       `}</style>
 
-      {/* ═══ NAV ═══
-      <nav style={{ position:"sticky", top:0, zIndex:1000, height:64, display:"flex", alignItems:"center", justifyContent:"space-between", padding:"0 clamp(24px,5vw,80px)", background:"rgba(10,10,10,.88)", backdropFilter:"blur(16px) saturate(1.5)", borderBottom:"1px solid #1e1e1e" }}>
-        <div style={{ display:"flex", alignItems:"center", gap:12 }}>
-          <div style={{ width:32, height:32, borderRadius:6, background:"#c8ff00", display:"flex", alignItems:"center", justifyContent:"center", fontFamily:"'Fira Code',monospace", fontSize:13, fontWeight:600, color:"#0a0a0a" }}>{"<>"}</div>
-          <span style={{ fontFamily:"'Syne',sans-serif", fontWeight:700, fontSize:16, letterSpacing:-.5 }}>Sean Frost</span>
-        </div>
-        <div style={{ display:"flex", gap:4, alignItems:"center" }}>
-          {["Home","CV","Engineering","Dev Log","Commits","Contact"].map((l,i) => (
-            <button key={l} className={`nav-lnk ${i===1?"active":""}`}>{l}</button>
-          ))}
-          <div style={{ marginLeft:16, display:"flex", alignItems:"center", gap:6, padding:"6px 14px", borderRadius:20, border:"1px solid #1e1e1e", fontSize:11, fontFamily:"'Fira Code',monospace", color:"#4a4a4a" }}>
-            <div style={{ width:6, height:6, borderRadius:"50%", background:"#22c55e", boxShadow:"0 0 8px #22c55e66", animation:"pulse 2s ease-in-out infinite" }} />LIVE
-          </div>
-        </div>
-      </nav> */}
-
       {/* ═══ HERO HEADER ═══ */}
       <header style={{ padding:"72px clamp(24px,5vw,80px) 48px", maxWidth:1200, margin:"0 auto", position:"relative" }}>
         <div style={{ position:"absolute", inset:0, pointerEvents:"none", backgroundImage:"linear-gradient(rgba(200,255,0,.02) 1px,transparent 1px),linear-gradient(90deg,rgba(200,255,0,.02) 1px,transparent 1px)", backgroundSize:"48px 48px", maskImage:"radial-gradient(ellipse 50% 60% at 30% 50%,black 10%,transparent 60%)", WebkitMaskImage:"radial-gradient(ellipse 50% 60% at 30% 50%,black 10%,transparent 60%)" }} />

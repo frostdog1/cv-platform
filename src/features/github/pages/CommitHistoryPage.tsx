@@ -168,7 +168,7 @@ const CommitHistoryPage: React.FC = () => {
             <div style={{ fontSize: 40, marginBottom: 16, opacity: 0.4 }}>🔀</div>
             <p style={{
               fontFamily: 'var(--font-body)', fontSize: 15, color: '#4a4a4a',
-            }}>No commits found. Push a commit you fool Mr Frost!!!</p>
+            }}>No commits found. Push a commit Mr Frost!!!</p>
           </div>
         )}
       </div>

@@ -23,6 +23,7 @@ function groupCommitsByDate(commits: GitHubCommit[]): CommitGroup[] {
   });
 
   const today = new Date().toISOString().split('T')[0];
+  /* As Date.now() produces the current date in milliseconds, yesterday is 86400000 (24 × 60 × 60 × 1000) for 24 hours ago */
   const yesterday = new Date(Date.now() - 86400000).toISOString().split('T')[0];
 
   return Array.from(groups.entries()).map(([dateKey, commits]) => {
