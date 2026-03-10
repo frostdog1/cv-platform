@@ -76,8 +76,7 @@ const DevLogPage: React.FC = () => {
             transform: loaded ? 'translateY(0)' : 'translateY(16px)',
             transition: `all 0.7s ${ease} 0.35s`,
           }}>
-            Decisions, problems, and learnings from building this platform.
-            Each entry documents real engineering thinking — not polished retrospectives.
+            Things I broke, things I learned and unfiltered notes from building this site.
           </p>
 
           {/* Entry count */}
